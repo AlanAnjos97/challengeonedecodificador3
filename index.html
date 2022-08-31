@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+
+    <title>Cod&Decode</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/images/logo.svg" alt="">
+    </header>
+    <main>
+        <section>
+            <textarea id="entrada" class="input-texto" cols="20" rows="5" placeholder="digite seu texto"></textarea>
+            <div>
+                <h6 class="informacao">Utilize apenas caracteres em minúsculo e sem acentuação</h6>
+            </div>
+            <div class="botoes">
+                <button class="criptografar" onclick="btnCriptografar()">Criptografar</button>
+                <button class="descriptografar" onclick="btnDescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="mensagem-box">
+            <textarea id="saida" class="mensagem" cols="20" rows="10"></textarea>
+            <div id="div-aparece">
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

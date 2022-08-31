@@ -1,0 +1,46 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weigth: 400;
+}
+
+main {
+    display: flex;
+}
+
+body {
+    position: relative;
+    width: 900px;
+    height: 1024px;
+    background: #F3F5FC;
+}
+
+.informacao {
+    font-size: 12px;
+}
+
+.input-texto {
+    background: #F3F5FC;
+    border: none;
+    font-size: 30px;
+}
+
+.mensagem {
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.criptografar {
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.descriptografar {
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.copiar {
+    border-radius: 10px;
+    font-size: 20px;
+}
